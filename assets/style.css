@@ -1,0 +1,40 @@
+/* Default width of 100% for all elements */
+/* Avoid horizontal margin and specified heights */
+header {
+    background-color: pink;
+    /* padding: 10px; */
+    min-height: 80px;
+    /* by default, flex direction is a row and the children no longer have width of 100%, but they do have a height of 100%; */
+    /* Whatever direction we go in flex, the main axis is justify-content; the cross axis is align-items */
+    display:flex;
+    justify-content: space-around;
+/* adding justify content or align items will remove the default 100% behavior */
+    align-items: center;
+}
+h1 {
+    background-color: red;
+    width: 30%;
+}
+
+nav {
+    background-color: purple;
+    width: 60%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 600px) {
+    header{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    nav{
+        width: 80%;
+    }
+}
+
+div {
+    background-color: blue;
+}
