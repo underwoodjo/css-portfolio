@@ -3,7 +3,7 @@
 header {
     background-color: rgb(134, 181, 228);
     /* padding: 10px; */
-    min-height: 30px;
+    min-height: 40%;
     /* by default, flex direction is a row and the children no longer have width of 100%, but they do have a height of 100%; */
     /* Whatever direction we go in flex, the main axis is justify-content; the cross axis is align-items */
     display:flex;
@@ -11,16 +11,11 @@ header {
 /* adding justify content or align items will remove the default 100% behavior */
     align-items: center;
 }
-h1 {
-    background-color: red;
-    width: 10%;
-    display: flex;
-    justify-content:flex-start ;
-}
+
 
 nav {
     background-color: rgb(40, 124, 170);
-    width: 40%;
+    width: 100%;
     display:flex;
     align-items: center;
     justify-content: flex-end;
