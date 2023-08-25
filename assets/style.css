@@ -27,6 +27,14 @@ nav {
     padding-right: 5%;
 }
 
+ul {
+   list-style-type: none; 
+}
+li {
+    display: inline-block;
+    margin: 5px;
+    font-size: 13px;
+}
 @media screen and (max-width: 600px) {
     header{
         flex-direction: column;
