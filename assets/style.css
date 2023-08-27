@@ -3,7 +3,8 @@
 header {
     background-color: rgb(134, 181, 228);
     /* padding: 10px; */
-    min-height: 70%;
+    min-height: 80%;
+    height: 100px;
     /* by default, flex direction is a row and the children no longer have width of 100%, but they do have a height of 100%; */
     /* Whatever direction we go in flex, the main axis is justify-content; the cross axis is align-items */
     display:flex;
@@ -16,12 +17,10 @@ h1 {
     font-size: 30px;
     width: 50%;
     padding: 1%;
-    margin: 10px
     display:flex;
     justify-content: flex-start;
 }
 nav {
-    background-color: rgb(40, 124, 170);
     width: 100%;
     display:flex;
     align-items: center;
@@ -36,6 +35,24 @@ li {
     display: inline-block;
     margin: 5px;
     font-size: 13px;
+}
+
+img {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.about-me {
+    float:right;
+    width: 40%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 220px;
+    margin-right: 10px;
+    display:inline-block;
+    line-height: 2;
+    background-color: aquamarine;
 }
 
 @media screen and (max-width: 600px) {
