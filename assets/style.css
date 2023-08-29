@@ -15,6 +15,7 @@ header {
 
 h1 {
     font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     width: 50%;
     padding: 1%;
     display:flex;
@@ -35,6 +36,7 @@ li {
     display: inline-block;
     margin: 5px;
     font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 img {
@@ -43,13 +45,14 @@ img {
 }
 
 .about-me {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     float:right;
-    width: 40%;
+    width: 70%;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    height: 220px;
-    margin-right: 10px;
+    height: 170px;
+    margin-right: 0px;
     line-height: 2;
     background-color: aquamarine;
 }
