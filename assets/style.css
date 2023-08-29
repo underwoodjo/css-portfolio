@@ -41,17 +41,17 @@ li {
 
 img {
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
 .about-me {
     font-family: Georgia, 'Times New Roman', Times, serif;
     float:right;
-    width: 70%;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 170px;
+    width: 72%;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 155px;
     margin-right: 0px;
     line-height: 2;
     background-color: aquamarine;
