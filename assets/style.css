@@ -107,11 +107,7 @@ align-content: center;
    padding-left: 40px;
 }
 .image3 {
-    display:flex;
-    justify-content: flex-start;
-    padding-left: -250px;
-
-
+    
 }
 @media screen and (max-width: 600px) {
     header{
