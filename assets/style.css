@@ -1,16 +1,11 @@
-/* Default width of 100% for all elements */
-/* Avoid horizontal margin and specified heights */
 header {
     background-color: rgb(134, 181, 228);
-    /* padding: 10px; */
     min-height: 80%;
     height: 100px;
-    /* by default, flex direction is a row and the children no longer have width of 100%, but they do have a height of 100%; */
-    /* Whatever direction we go in flex, the main axis is justify-content; the cross axis is align-items */
     display:flex;
     justify-content: flex-start;
-/* adding justify content or align items will remove the default 100% behavior */
     align-items: center;
+    margin-top: -10px;
 }
 
 h1 {
@@ -101,13 +96,32 @@ align-content: center;
 }
 
 .image1 {
-    padding-left: 40px;
+    display: flex;
+    justify-content:center;
 }
 .image2 {
-   padding-left: 40px;
+    display: flex;
+    justify-content: center;
+   padding-left: 20px;
 }
 .image3 {
-    
+padding-left: 20px;
+}
+
+body header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+section ul {
+    background-color: rgb(134, 181, 228);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+
 }
 @media screen and (max-width: 600px) {
     header{
