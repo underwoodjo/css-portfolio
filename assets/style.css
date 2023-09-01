@@ -1,29 +1,128 @@
-/* Default width of 100% for all elements */
-/* Avoid horizontal margin and specified heights */
 header {
-    background-color: pink;
-    /* padding: 10px; */
-    min-height: 80px;
-    /* by default, flex direction is a row and the children no longer have width of 100%, but they do have a height of 100%; */
-    /* Whatever direction we go in flex, the main axis is justify-content; the cross axis is align-items */
+    background-color: rgb(134, 181, 228);
+    min-height: 80%;
+    height: 100px;
     display:flex;
-    justify-content: space-around;
-/* adding justify content or align items will remove the default 100% behavior */
+    justify-content: flex-start;
     align-items: center;
+    margin-top: -10px;
 }
+
 h1 {
-    background-color: red;
-    width: 30%;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 50%;
+    margin: 20px;
+    padding: 1%;
+    display:flex;
+    justify-content: flex-start;
+    align-items:baseline;
 }
-
 nav {
-    background-color: purple;
-    width: 60%;
+    width: 100%;
     display:flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-end;
+    padding-right: 5%;
 }
 
+ul {
+   list-style-type: none; 
+}
+li {
+    display: inline-block;
+    margin: 5px;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+section h2 {
+    float: right;
+    background-color: aquamarine;
+    width: 50px;
+    display: flex; 
+    justify-content: center;
+    align-content: flex-end;
+    width: 70%;
+    height: 40px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+section p {
+    float: right;
+    display: flex;
+    justify-content:center;
+    align-content:flex-end;
+    width: 70%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    height: 190px;
+    line-height: 1.3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aquamarine
+    
+}
+
+.Portfolio {
+    background-color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    height: 20px;
+    
+}
+
+.portfolio-images {
+    background-color: aqua;
+    display: flex;
+    justify-content:flex-start;
+    height: 400px;
+}
+
+h2 {
+display: flex;
+justify-content: center;
+align-content: center;
+}
+
+.image1 {
+    display: flex;
+    justify-content:center;
+}
+.image2 {
+    display: flex;
+    justify-content: center;
+   padding-left: 20px;
+}
+.image3 {
+padding-left: 20px;
+}
+
+body header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+section ul {
+    background-color: rgb(134, 181, 228);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+
+}
 @media screen and (max-width: 600px) {
     header{
         flex-direction: column;
